@@ -4,6 +4,8 @@
 " Original Author:        Sean M. McKee <mckee@misslink.net>
 " Previous Maintainer:    Nima Talebi <nima@it.net.au>
 " Current Maintainer:     Hong Xu <xuhdev@gmail.com>
+" Homepage:               http://www.vim.org/scripts/script.php?script_id=3747
+"                         https://bitbucket.org/xuhdev/syntax-dosini.vim
 " Last Change:            2011 Jul 21
 
 
