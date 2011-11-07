@@ -20,7 +20,6 @@ endif
 " shut case off
 syn case ignore
 
-syn match  dosiniBool     "\<\(yes\|no\|y\|n\|true\|false\)\>"
 syn match  dosiniNumber   "\<\d\+\>"
 syn match  dosiniNumber   "\<\d*\.\d\+\>"
 syn match  dosiniNumber   "\<\d\+e[+-]\=\d\+\>"
@@ -39,7 +38,6 @@ if version >= 508 || !exists("did_dosini_syntax_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink dosiniBool     Boolean
   HiLink dosiniNumber   Number
   HiLink dosiniHeader   Special
   HiLink dosiniComment  Comment
