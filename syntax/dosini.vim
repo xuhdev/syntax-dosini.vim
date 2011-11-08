@@ -1,12 +1,12 @@
 " Vim syntax file
 " Language:               Configuration File (ini file) for MSDOS/MS Windows
-" Version:                2.0
+" Version:                2.1
 " Original Author:        Sean M. McKee <mckee@misslink.net>
 " Previous Maintainer:    Nima Talebi <nima@it.net.au>
 " Current Maintainer:     Hong Xu <xuhdev@gmail.com>
 " Homepage:               http://www.vim.org/scripts/script.php?script_id=3747
 "                         https://bitbucket.org/xuhdev/syntax-dosini.vim
-" Last Change:            2011 Jul 21
+" Last Change:            2011 Nov 8
 
 
 " For version 5.x: Clear all syntax items
