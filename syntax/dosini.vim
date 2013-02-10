@@ -3,7 +3,7 @@
 " Version:                2.1
 " Original Author:        Sean M. McKee <mckee@misslink.net>
 " Previous Maintainer:    Nima Talebi <nima@it.net.au>
-" Current Maintainer:     Hong Xu <dev@hong.me>
+" Current Maintainer:     Hong Xu <hong@topbug.net>
 " Homepage:               http://www.vim.org/scripts/script.php?script_id=3747
 " Repository:
 "     Mercurial:          https://bitbucket.org/xuhdev/syntax-dosini.vim
