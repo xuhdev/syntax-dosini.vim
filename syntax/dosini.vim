@@ -22,10 +22,11 @@ endif
 " shut case off
 syn case ignore
 
-syn match  dosiniNumber   "\<\d\+\>"
-syn match  dosiniNumber   "\<\d*\.\d\+\>"
-syn match  dosiniNumber   "\<\d\+e[+-]\=\d\+\>"
-syn match  dosiniLabel    "^.\{-}="
+syn match  dosiniLabel    "^.\{-}\ze\s*=" nextgroup=dosiniNumber,dosiniValue
+syn match  dosiniValue    "=\zs.*"
+syn match  dosiniNumber   "=\zs\s*\d\+\s*$"
+syn match  dosiniNumber   "=\zs\s*\d*\.\d\+\s*$"
+syn match  dosiniNumber   "=\zs\s*\d\+e[+-]\=\d\+\s*$"
 syn region dosiniHeader   start="^\s*\[" end="\]"
 syn match  dosiniComment  "^[#;].*$"
 
