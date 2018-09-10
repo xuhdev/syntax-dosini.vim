@@ -8,7 +8,7 @@
 " Repository:
 "     Mercurial:          https://bitbucket.org/xuhdev/syntax-dosini.vim
 "     Git:                https://github.com/xuhdev/syntax-dosini.vim
-" Last Change:            2011 Nov 8
+" Last Change:            2018 Sep 11
 
 
 " For version 5.x: Clear all syntax items
@@ -22,10 +22,11 @@ endif
 " shut case off
 syn case ignore
 
-syn match  dosiniNumber   "\<\d\+\>"
-syn match  dosiniNumber   "\<\d*\.\d\+\>"
-syn match  dosiniNumber   "\<\d\+e[+-]\=\d\+\>"
-syn match  dosiniLabel    "^.\{-}="
+syn match  dosiniLabel    "^.\{-}\ze\s*=" nextgroup=dosiniNumber,dosiniValue
+syn match  dosiniValue    "=\zs.*"
+syn match  dosiniNumber   "=\zs\s*\d\+\s*$"
+syn match  dosiniNumber   "=\zs\s*\d*\.\d\+\s*$"
+syn match  dosiniNumber   "=\zs\s*\d\+e[+-]\=\d\+\s*$"
 syn region dosiniHeader   start="^\s*\[" end="\]"
 syn match  dosiniComment  "^[#;].*$"
 
