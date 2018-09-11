@@ -34,6 +34,7 @@ hi def link dosiniNumber   Number
 hi def link dosiniHeader   Special
 hi def link dosiniComment  Comment
 hi def link dosiniLabel    Type
+hi def link dosiniValue    String
 
 
 let b:current_syntax = "dosini"
