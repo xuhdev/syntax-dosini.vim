@@ -5,9 +5,7 @@
 " Previous Maintainer:    Nima Talebi <nima@it.net.au>
 " Current Maintainer:     Hong Xu <hong@topbug.net>
 " Homepage:               http://www.vim.org/scripts/script.php?script_id=3747
-" Repository:
-"     Mercurial:          https://bitbucket.org/xuhdev/syntax-dosini.vim
-"     Git:                https://github.com/xuhdev/syntax-dosini.vim
+" Repository:             https://github.com/xuhdev/syntax-dosini.vim
 " Last Change:            2018 Sep 11
 
 
