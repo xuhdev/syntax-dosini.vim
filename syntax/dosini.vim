@@ -8,7 +8,7 @@
 " Repository:
 "     Mercurial:          https://bitbucket.org/xuhdev/syntax-dosini.vim
 "     Git:                https://github.com/xuhdev/syntax-dosini.vim
-" Last Change:            2011 Nov 8
+" Last Change:            2018 Sep 11
 
 
 " For version 5.x: Clear all syntax items
@@ -45,6 +45,7 @@ if version >= 508 || !exists("did_dosini_syntax_inits")
   HiLink dosiniHeader   Special
   HiLink dosiniComment  Comment
   HiLink dosiniLabel    Type
+  HiLink link dosiniLabel    String
 
   delcommand HiLink
 endif
