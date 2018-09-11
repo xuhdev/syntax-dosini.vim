@@ -45,6 +45,7 @@ if version >= 508 || !exists("did_dosini_syntax_inits")
   HiLink dosiniHeader   Special
   HiLink dosiniComment  Comment
   HiLink dosiniLabel    Type
+  HiLink link dosiniLabel    String
 
   delcommand HiLink
 endif
