@@ -24,6 +24,8 @@ syn match  dosiniNumber   "=\zs\s*\d*\.\d\+\s*$"
 syn match  dosiniNumber   "=\zs\s*\d\+e[+-]\=\d\+\s*$"
 syn region dosiniHeader   start="^\s*\[" end="\]"
 syn match  dosiniComment  "^[#;].*$"
+syn region dosiniSection  start="\s*\[.*\]" end="\ze\s*\[.*\]" fold
+      \ contains=dosiniLabel,dosiniValue,dosiniNumber,dosiniHeader,dosiniComment
 
 " Define the default highlighting.
 " Only when an item doesn't have highlighting yet
