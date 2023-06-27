@@ -6,7 +6,7 @@
 " Current Maintainer:     Hong Xu <hong@topbug.net>
 " Homepage:               http://www.vim.org/scripts/script.php?script_id=3747
 " Repository:             https://github.com/xuhdev/syntax-dosini.vim
-" Last Change:            2018 Sep 11
+" Last Change:            2023 Jun 27
 
 
 " quit when a syntax file was already loaded
